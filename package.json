@@ -2,7 +2,7 @@
   "name": "mini-twitter",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://sherinececil.github.io/react-gh-pages",
+  "homepage": "http://sherinececil.github.io/Mini-Twitter",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
