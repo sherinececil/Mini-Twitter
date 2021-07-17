@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Mini-Twitter/static/css/main.a52d3a5c.chunk.css",
-    "main.js": "/Mini-Twitter/static/js/main.22e31097.chunk.js",
-    "main.js.map": "/Mini-Twitter/static/js/main.22e31097.chunk.js.map",
+    "main.js": "/Mini-Twitter/static/js/main.d2778635.chunk.js",
+    "main.js.map": "/Mini-Twitter/static/js/main.d2778635.chunk.js.map",
     "runtime-main.js": "/Mini-Twitter/static/js/runtime-main.e6f4808f.js",
     "runtime-main.js.map": "/Mini-Twitter/static/js/runtime-main.e6f4808f.js.map",
     "static/js/2.8f7860bb.chunk.js": "/Mini-Twitter/static/js/2.8f7860bb.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e6f4808f.js",
     "static/js/2.8f7860bb.chunk.js",
     "static/css/main.a52d3a5c.chunk.css",
-    "static/js/main.22e31097.chunk.js"
+    "static/js/main.d2778635.chunk.js"
   ]
 }
