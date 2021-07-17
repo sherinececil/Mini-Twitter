@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/Mini-Twitter/static/css/main.a617e044.chunk.css",
-    "main.js": "/Mini-Twitter/static/js/main.5a8b19ef.chunk.js",
-    "main.js.map": "/Mini-Twitter/static/js/main.5a8b19ef.chunk.js.map",
-    "runtime-main.js": "/Mini-Twitter/static/js/runtime-main.86ad3905.js",
-    "runtime-main.js.map": "/Mini-Twitter/static/js/runtime-main.86ad3905.js.map",
-    "static/js/2.6f4c9098.chunk.js": "/Mini-Twitter/static/js/2.6f4c9098.chunk.js",
-    "static/js/2.6f4c9098.chunk.js.map": "/Mini-Twitter/static/js/2.6f4c9098.chunk.js.map",
-    "static/js/3.a46207e1.chunk.js": "/Mini-Twitter/static/js/3.a46207e1.chunk.js",
-    "static/js/3.a46207e1.chunk.js.map": "/Mini-Twitter/static/js/3.a46207e1.chunk.js.map",
+    "main.css": "/Mini-Twitter/static/css/main.a52d3a5c.chunk.css",
+    "main.js": "/Mini-Twitter/static/js/main.4ac80d6b.chunk.js",
+    "main.js.map": "/Mini-Twitter/static/js/main.4ac80d6b.chunk.js.map",
+    "runtime-main.js": "/Mini-Twitter/static/js/runtime-main.6c9a395c.js",
+    "runtime-main.js.map": "/Mini-Twitter/static/js/runtime-main.6c9a395c.js.map",
+    "static/js/2.c03644a3.chunk.js": "/Mini-Twitter/static/js/2.c03644a3.chunk.js",
+    "static/js/2.c03644a3.chunk.js.map": "/Mini-Twitter/static/js/2.c03644a3.chunk.js.map",
+    "static/js/3.ef0e6127.chunk.js": "/Mini-Twitter/static/js/3.ef0e6127.chunk.js",
+    "static/js/3.ef0e6127.chunk.js.map": "/Mini-Twitter/static/js/3.ef0e6127.chunk.js.map",
     "index.html": "/Mini-Twitter/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/Mini-Twitter/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.6f4c9098.chunk.js.LICENSE.txt": "/Mini-Twitter/static/js/2.6f4c9098.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/Mini-Twitter/static/media/logo.6ce24c58.svg"
+    "static/css/main.a52d3a5c.chunk.css.map": "/Mini-Twitter/static/css/main.a52d3a5c.chunk.css.map",
+    "static/js/2.c03644a3.chunk.js.LICENSE.txt": "/Mini-Twitter/static/js/2.c03644a3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.86ad3905.js",
-    "static/js/2.6f4c9098.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.5a8b19ef.chunk.js"
+    "static/js/runtime-main.6c9a395c.js",
+    "static/js/2.c03644a3.chunk.js",
+    "static/css/main.a52d3a5c.chunk.css",
+    "static/js/main.4ac80d6b.chunk.js"
   ]
 }
