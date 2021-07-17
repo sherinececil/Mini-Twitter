@@ -22,6 +22,16 @@ import InputBase from "@material-ui/core/InputBase";
 import SearchIcon from "@material-ui/icons/Search";
 import orange from "@material-ui/core/colors/orange";
 import Cards from "./Cards";
+import TwitterTabs from "./TwitterTabs"
+import PropTypes from 'prop-types';
+import Tabs from '@material-ui/core/Tabs';
+import Tab from '@material-ui/core/Tab';
+import {useState, useEffect} from 'react'
+import { Switch, Link, Route } from "react-router-dom";
+import UserMessages from "./UserMessages"
+
+
+
 
 const drawerWidth = 240;
 
@@ -120,9 +130,11 @@ const useStyles = makeStyles((theme) => ({
       }
     }
   }
-}));
+}
+));
 
-export default function TwitterPage({ tweets }) {
+export default function Messages() {
+ 
   const classes = useStyles();
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
@@ -157,6 +169,22 @@ export default function TwitterPage({ tweets }) {
           <Typography variant="h6" noWrap>
             MVP Twitter
           </Typography>
+          {/* <TwitterTabs /> */}
+            <Tabs aria-label="simple tabs example">
+            <Link to="/messages">
+              {" "}
+              <Tab label="Messages" />
+            </Link>
+            <Link to="/users">
+              <Tab label="Users" />
+            </Link>
+             <Link to="/users/60f29968f95486a16b0c5bbc">
+              <Tab label="Users" />
+            </Link>
+            <Link to="/videos">
+            <Tab label="Videos" />
+            </Link>
+          </Tabs>
           <InputBase
             placeholder="Search…"
             classes={{
@@ -208,6 +236,8 @@ export default function TwitterPage({ tweets }) {
           ))}
         </List>
       </Drawer>
+      {/* Trying for Tabs. */}
+
       <main
         className={clsx(classes.content, {
           [classes.contentShift]: open
@@ -215,7 +245,8 @@ export default function TwitterPage({ tweets }) {
       >
         <div className={classes.drawerHeader} />
         {/* Write your code here */}
-        <Cards tweets={tweets} />
+         <Cards />
+       
       </main>
     </div>
   );

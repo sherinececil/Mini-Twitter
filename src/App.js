@@ -1,35 +1,57 @@
 
 import './App.css';
-import {useState, useEffect} from 'react'
-import TwitterPage from "./TwitterPage";
+import TwitterPage from "./Messages";
+import { Switch, Link, Route } from "react-router-dom";
+import UserMessages from "./UserMessages";
+import Cards from "./Cards";
+import Messages from "./Messages";
+import Videos from "./Videos";
+
+
+// App
+//     fetches nothing
+//     just have switch with routes
+// Messages 
+//     fetch -> messages
+
+// MessagesForUser
+//     fetch -> message 
+
+// Message ("messages/:id")
+//     fetch -> one message
 
 function App() {
-const [tweets, setTweets] = useState(
-  [{"_id":"123","username":"bob", "message":"this is an example",}, 
-  {"_id":"235","username":"greg", "message":"Hey there!!!"},
-  {"_id":"456","username":"sally", "message":"Stay there."} ]
-)
-
-useEffect(()=>{
-  fetch(`https://fake-tweets-api.herokuapp.com/posts`)
-  .then(res=>res.json())
-  .then(data=>{
-    setTweets(data)
-    if(data){
-  console.log(tweets)
-    }
-  }
-    )
-},[])
-
-  return (
+return(
     <div className="App">
       <header className="App-header">
-       <TwitterPage tweets={tweets} />
-       
+         
+           <Messages />
+             <Switch>
+          <Route exact path="/">
+           <Messages />{" "} 
+            HELLO WELCOME TO HOMEPAGE
+          </Route>
+          <Route exact path="/user/">
+            {" "}
+           <Link>
+           <UserMessages />
+           {" "}</Link>
+            
+          </Route>
+          <Route exact path="/videos">
+            {/* access the id with useParams in the child component */}{" "}
+            <Videos />
+          </Route>
+        </Switch>
+        
       </header>
     </div>
   );
 }
 
+
+
+
 export default App;
+
+ 
