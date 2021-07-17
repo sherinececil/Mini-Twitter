@@ -33,7 +33,7 @@ export default function Cards() {
  const [tweets, setTweets] = useState(null)
 
 useEffect(()=>{
-  fetch(`http://mini-twitter-cross-over.herokuapp.com/messages`)
+  fetch(`https://mini-twitter-cross-over.herokuapp.com/messages`)
   .then(res=>res.json())
   .then(data=>{
     setTweets(data)
@@ -54,7 +54,7 @@ return tweets.map((t) => (
         <div>
           <Avatar src="/broken-image.jpg" />
           <Typography variant="h5" component="h2" textAlign="left">
-            {t.id}
+            {t.author}
           </Typography>
         </div>
         <br />
